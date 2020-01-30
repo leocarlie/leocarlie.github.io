@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:#222;
+}
+
+.meformobile {
+    display: none;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.img-banner {
+    display: none;
+}
+
+.img-myinfo {
+    width: 100%;
+}
+
+.img-myinfo h2 {
+    padding: 30px 30px 20px;
+    font-family: Arial;
+    font-size: 50px;
+    color: whitesmoke;
+    line-height: 44px;
+}
+
+.img-myinfo p {
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: whitesmoke;
+    line-height: 24px;
+}
+
+.img-me {
+    width: 100%;
+}
+
+.img-photos {
+    width: 50%;
+    float: left;
+}
+
+.photos {
+    width: 100%;
+}
+
+.photos h2 {
+    padding: 30px 30px 20px;
+    font-family: Arial;
+    font-size: 50px;
+    color: whitesmoke;
+    line-height: 44px;
+}
+
+.photos p {
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: whitesmoke;
+    line-height: 24px;
+}
+
+.picmessage {
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: whitesmoke;
+    line-height: 24px;
+    float: right;
+    width: 50%;
+}
+
+h5 {
+    color: whitesmoke;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 300px) {
+    .navigation {
+        position: ;
+    }
+
+    .img-myinfo h2 {
+        padding-top: 70px; ;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .img-banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px; 
+    }
+
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .img-myinfo h2 {
+        padding: 20ps 0px 0px;
+    }
+    
+    .img-myinfo p {
+        padding: 20ps 0px 0px;
+    }
+
+    .img-me {
+        padding-top: 30px;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+    }
+
+    .img-myinfo {
+        width: 50%;
+        float: right;
+    }
+
+    .img-myinfo h2 {
+        padding: 20ps 0px 0px 30px;
+    }
+    
+    .img-myinfo p {
+        padding: 20ps 0px 0px 30px;
+    }
+
+    .img-me {
+        padding-top: 0px;
+        width: 50%;
+        float: left;
+    }
+
+    .navigation {
+        width: 50%;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
